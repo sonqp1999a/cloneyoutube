@@ -1,0 +1,104 @@
+@media screen and (max-width:1368px) {
+    .search {
+        display: none;
+        width: calc(100% - 72px);
+    }
+    .content-nav {
+        display: block;
+        padding: 24px 0;
+    }
+    .content-nav i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .content-nav div {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-list {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: calc(100% - 250px);
+        margin-left: 250px;
+        padding-top: 80px;
+        margin-top: 50px;
+    }
+    .side-bar {
+        width: 72px;
+    }
+    .sidebar-nav {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .category {
+        display: none;
+    }
+    .side-bar .border-sidebar {
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+    .content-nav .e {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .search {
+        display: none;
+        width: calc(100% - 72px);
+    }
+    .content-nav {
+        display: block;
+        padding: 24px 0;
+    }
+    .content-nav i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6px;
+    }
+    .content-nav div {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-list {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        padding-top: 70px;
+        margin-left: 0px;
+    }
+    .side-bar {
+        display: none;
+    }
+    .sidebar-nav {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .category {
+        display: none;
+    }
+    .side-bar .border-sidebar {
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+    .content-nav .e {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:653px) {
+    .btn-box {
+        display: none;
+    }
+}
